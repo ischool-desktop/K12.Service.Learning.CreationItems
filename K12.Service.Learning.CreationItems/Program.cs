@@ -15,7 +15,7 @@ namespace K12.Service.Learning.CreationItems
 
             //服務學習資料項目
 
-            RibbonBarItem insert = MotherForm.RibbonBarItems["學務作業", "批次作業/查詢"];
+            RibbonBarItem insert = MotherForm.RibbonBarItems["學務作業", "線上作業"];
             insert["服務學習線上開設"].Size = RibbonBarButton.MenuButtonSize.Medium;
             insert["服務學習線上開設"].Enable = Permissions.服務學習線上開設權限;
             insert["服務學習線上開設"].Click += delegate
